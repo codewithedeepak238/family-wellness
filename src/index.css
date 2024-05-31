@@ -11,19 +11,17 @@
 li.active{
     background: #991f48;
 }
-li{
-    background: rgb(202, 190, 190);
+.header li{
+    background: #cabebe;
     color: white;
     font-weight: 400;
     padding: 0.5% 5%;
     cursor: pointer;
+    width: 100%;
 }
-li:hover{
+.header li:hover{
     background-color: rgb(167, 161, 161);
 }
-li.active:hover{
+.header li.active:hover{
     background: #991f48;
-}
-.header{
-    margin: 0 auto;
 }
